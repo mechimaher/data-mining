@@ -25,4 +25,5 @@ Execute market.py with Python, specifying optional parameters for minimum suppor
 python market.py
 
 Example with custom thresholds:
+
 python market.py --min_support 0.05 --min_confidence 0.1
