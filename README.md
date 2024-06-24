@@ -29,3 +29,30 @@ Execute market.py with Python, specifying optional parameters for minimum suppor
 Example with custom thresholds:
 
  => python market.py --min_support 0.05 --min_confidence 0.1
+
+ # Understanding Output
+The script will output discovered association rules, including high-confidence rules and their support metrics.
+A visualization using matplotlib will display itemset support and annotations for high-confidence rules with advice messages.
+
+# Parameters
+--min_support: Minimum support threshold for frequent itemsets (default: 0.05).
+--min_confidence: Minimum confidence threshold for association rules (default: 0.1).
+
+# Example Output
+After running the script, you will see output similar to:
+
+High confidence rules:
+   antecedents consequents  antecedent support  ...      lift  leverage  conviction
+0     (Bread)    (Butter)            0.190935  ...  2.593013  0.059835    1.639682
+
+All association rules:
+   antecedents consequents  antecedent support  ...      lift  leverage  conviction
+0     (Bread)    (Butter)            0.190935  ...  2.593013  0.059835    1.639682
+1    (Butter)     (Bread)            0.196721  ...  2.593013  0.059835    1.602419
+
+# Contribution
+Contributions are welcome! If you have any suggestions or improvements, please submit a pull request or open an issue.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
