@@ -22,8 +22,8 @@ Ensure market_data.csv is placed in the project directory.
 # Run the Script:
 Execute market.py with Python, specifying optional parameters for minimum support and confidence:
 
-python market.py
+ => python market.py
 
 Example with custom thresholds:
 
-python market.py --min_support 0.05 --min_confidence 0.1
+ => python market.py --min_support 0.05 --min_confidence 0.1
