@@ -14,3 +14,12 @@ pip install pandas mlxtend
 To analyze the market data and generate association rules, follow these steps:
 
 # Clone the Repository:
+git clone https://github.com/mechimaher/data-mining
+cd data-mining
+# Prepare Data:
+
+Ensure market_data.csv is placed in the project directory.
+
+# Run the Script:
+
+Execute market.py with Python, specifying optional parameters for minimum support and confidence:
