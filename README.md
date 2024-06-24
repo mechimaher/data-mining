@@ -8,3 +8,9 @@ Python 3.x
 pandas
 mlxtend
 Install the required Python packages using pip:
+pip install pandas mlxtend
+# Usage
+# Running the Script
+To analyze the market data and generate association rules, follow these steps:
+
+# Clone the Repository:
