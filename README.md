@@ -5,11 +5,15 @@ This repository contains a Python script (market.py) for performing market analy
 Association rule mining is a data mining technique used to identify relationships between items purchased together in transactional data. This script uses the Apriori algorithm to find frequent itemsets and generate association rules based on user-defined support and confidence thresholds.
 
 # Requirements
+
  Python 3.x
+ 
  pandas
+ 
  mlxtend
  
 Install the required Python packages using pip:
+
  => pip install pandas mlxtend
  
 # Usage
