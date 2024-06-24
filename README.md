@@ -47,12 +47,17 @@ A visualization using matplotlib will display itemset support and annotations fo
 After running the script, you will see output similar to:
 
 High confidence rules:
+
    antecedents consequents  antecedent support  ...      lift  leverage  conviction
+   
 0     (Bread)    (Butter)            0.190935  ...  2.593013  0.059835    1.639682
 
 All association rules:
+
    antecedents consequents  antecedent support  ...      lift  leverage  conviction
+   
 0     (Bread)    (Butter)            0.190935  ...  2.593013  0.059835    1.639682
+
 1    (Butter)     (Bread)            0.196721  ...  2.593013  0.059835    1.602419
 
 # Contribution
