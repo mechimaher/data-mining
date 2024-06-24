@@ -40,6 +40,7 @@ A visualization using matplotlib will display itemset support and annotations fo
 
 # Parameters
 --min_support: Minimum support threshold for frequent itemsets (default: 0.05).
+
 --min_confidence: Minimum confidence threshold for association rules (default: 0.1).
 
 # Example Output
